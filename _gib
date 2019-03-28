@@ -38,8 +38,12 @@ git push origin (var nombre) subir el taga al repositorio remoto
 WORKFLOKS
 
 (Cuando se esta trabajando en equipo)
-git fetch origin clona la rama actual del repositorio local a la rama origin 
+
 git merge origin/master se crear un commit de la rama origin/master git ewwewe
 
 
-git push origin (var rama) subir una rama de repositorio local al repositorio remoto	
+Flujo normal 
+
+git push {rama del repositorio remoto} { rama el repositorio local} sube los cambios al repositorio remoto
+git fetch {rama que se va clonar } clona la rama actual del repositorio local a la rama remota
+ git merge {rama de repositorio remoto}/{rama de repositorio local} combina y deja la rama local igual a la rama del respositorio remoto
