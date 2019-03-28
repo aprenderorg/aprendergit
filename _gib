@@ -28,7 +28,7 @@ git clone (var name) url del repositorio qe se va aclonar
 git remote add origin (var name) conetar el repositorio remoto con el repositorio local
 git remote remove origin  eliminar la conexion con el repositorio remoto actual
 git remote -v listado del repositorio remoto conectado actual
-git push origin (var rama) subir una rama de repositorio local al repositorio remoto
+git push origin (var rama) subir una rama de repositorio local al repositorio remoto (esto es cuando se esta trabajando en un repositorio individual)
 
 Tag
 
@@ -37,6 +37,7 @@ git push origin (var nombre) subir el taga al repositorio remoto
 
 WORKFLOKS
 
+(Cuando se esta trabajando en equipo)
 git fetch origin clona la rama actual del repositorio local a la rama origin 
 git merge origin/master se crear un commit de la rama origin/master git ewwewe
 
