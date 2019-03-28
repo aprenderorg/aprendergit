@@ -39,3 +39,6 @@ WORKFLOKS
 
 git fetch origin clona la rama actual del repositorio local a la rama origin 
 git merge origin/master se crear un commit de la rama origin/master git ewwewe
+
+
+git push origin (var rama) subir una rama de repositorio local al repositorio remoto	
