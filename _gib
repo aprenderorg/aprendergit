@@ -1,0 +1,41 @@
+config
+	cambiar nombre del usuario git config --global user.name "" ( entre ""  en nombre del usuario) para ver el nombre del usuario actual se debe hacer sin ""
+	tambien correo con user.email
+	la configuracion de colores es opcional y se hace con git config --global color.ui true
+	listar las configuraciones globales git config --global  --list 	
+
+BASICO
+
+git ini al inicio de un proyecto para comenzar a ptrabajr sobre este archivo
+git status para ver el estado de los archivos del proyecto
+git add (elemento) agregar un archivo al repositorio (--all) todos los arcivos
+git commit (Confirmacion de cambios) -m  "(mensaje)" mensaje de expecificacion de cambios opcional
+git log listado de todos los cambios que se hac hecho al proyecto ( git log > var name.txt ) exportar los commit al un archivo plano
+git checkout (codigo sha de la version deseada) realizar un rollback del una version anterior el sha se saca de el log	(master al ultimo commit realizado)
+git reset (--soft o --hard) (codigo sha) restable la version desea de commit (--soft elimina el commit pero no el codigo) (-hard elimina codigo y commit)	
+
+RAMAS
+
+git branch la rama en la que estamos actual
+git branch(var name)  crear una una rama -b( crear y mover) -a (ver ramas ocultas)
+git checkout (var rama) moverse a una rama
+git branch -D (var name)  eliminar una una rama
+git merge (var rama) fusiona la rama en la que estoy actualmente con la rama name
+
+GITHUB
+
+git clone (var name) url del repositorio qe se va aclonar 
+git remote add origin (var name) conetar el repositorio remoto con el repositorio local
+git remote remove origin  eliminar la conexion con el repositorio remoto actual
+git remote -v listado del repositorio remoto conectado actual
+git push origin (var rama) subir una rama de repositorio local al repositorio remoto
+
+Tag
+
+git tab -a (var nombre(ej v0.8)) -m (var comentario) crear una tag de tipo objeto (opcional sha comit) para el comit especifico
+git push origin (var nombre) subir el taga al repositorio remoto
+
+WORKFLOKS
+
+git fetch origin clona la rama actual del repositorio local a la rama origin 
+git merge origin/master se crear un commit de la rama origin/master git ewwewe

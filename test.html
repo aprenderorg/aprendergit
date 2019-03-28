@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="./JQUERY.js"> </script>
+	<title>esto es un titulo </title>
+</head>
+<body>
+	<button id="Aprender">Prueba</button>
+
+<div id="Test"></div>
+<div></div>
+<div> esto es una pruab</div>
+<div> esto es una prueba 2</div>
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#Aprender").on("click",function(e) {
+			$("#Test").append("<h1> Aprender </h1>");
+		});
+	})
+</script>
+</body>
+</html>
